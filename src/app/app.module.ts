@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { SidebarComponentComponent } from './components/sidebar-component/sidebar-component.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EditorPageComponent,
-    SidebarComponentComponent
+    SidebarComponentComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
