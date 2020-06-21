@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { EditorPageComponent } from './pages/editor-page/editor-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { SidebarComponentComponent } from './components/sidebar-component/sidebar-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EditorPageComponent
+    EditorPageComponent,
+    SidebarComponentComponent
   ],
   imports: [
     BrowserModule,
