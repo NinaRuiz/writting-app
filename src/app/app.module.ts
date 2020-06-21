@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EditorPageComponent } from './pages/editor-page/editor-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EditorPageComponent
   ],
   imports: [
     BrowserModule,
