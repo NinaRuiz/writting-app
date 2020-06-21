@@ -7,6 +7,7 @@ import { EditorPageComponent } from './pages/editor-page/editor-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { SidebarComponentComponent } from './components/sidebar-component/sidebar-component.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SidebarComponentComponent } from './components/sidebar-component/sideba
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
